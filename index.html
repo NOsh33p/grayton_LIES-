@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel='stylesheet'href='style.css'>
+  </head>
 <body>
 <center>
-<h1>Data Science Project 1</h1>
-  <h2>By Maddox Jacobs</h2>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div{text-align: center;}
+body{
+  background-image: url('steam3.jpg');
+}
+</style>
+<h style="font-family:fantasy">
+  <h1 style="color:#75FF02 ;">Should FPS Game's Make Sequels Based on average Twitch Viewers and Players?</h1>
+  <h2 style="color:#75FF02 ;">By Maddox J. Jacobs</h2>
+</h>  
+ <div class='page'>
+<p style="color:#75FF02 ;">
+  <p2 style="font-family:fantasy">
+      <p3 style="font-size:20px">
+2021 was the third year of quarantine, and steam it was good year for steam, players spent 
+almost 38 billion hours playing.Twitch also had a good year, averaging 2.78 million concurrent
+viewers. My question is "Which game was most popular in 2021 based on average steam players and 
+twitch viewers,is the most popular game a first person shooter, if so, should they make a sequel 
+to that game?". 
+<br><br>
+I got my data sources from kaggle, steam player data was the one I used the average player data for games in 2021, the data is credibility after cross checking it with multiple data sources I found on google, the only downside I found with this dataset is that the gamenames's duplicate for each month. I used a linegraph because i'm trying to find the game with most average players over 2021 and a linegraph "tracks changes over short and long periods of time". Top games on Twitch 2016 - 2021 is dataset I used for twitch average viewers and its credible(cross checked with other sites) but the reliability is terrible, it took forever to get pandas to read it as an csv, but other than that it's not bad. I made a piechart and bargraph, the piechart was so I could see the simple numbers of my data and get the gist of the average views. I made the barchart to make the data look cleaner and represent it using categorical data. 
+<br><br>
+Im finding the average twitch views and average steam player's on each game, both of the average's tend to stay constent with each other but the average steam players are always larger than the viewers on twitch. I decided to find the range bewteen average twitch viewers and average steam players to double check my data and I found that CS:GO(Counter Strike: Global Offensive) had the highest difference with a range of 420,000.
+<br><br>
+Now that we know that CS:GO had the highest average of steam players and twitch viewers, should they make a sequel? The answer is yes, many fans of CS:GO are waiting for a sequel. You could make an arguement that their average players declined, but that was because they were migrating to Apex legends due to the increasing popularity and player/viewer base. Their are even Reddit pages that are still talking about the possibility of a new CS:GO, so video game studio's should only make sequels after checking the average steam players and average twitch viewers.</p> </p2></p3></div>
 
-<p>Influencers have had important roles during the 21st century, they literally make stuff popular, but what type of stats make an influencer into a INFLUENCER.Is there a positive, statistically significant correlation between the number of followers an influencer has and their influence score?Their is a positive collaration bewteen followers and influence score, the PCC is %0.365.Is there a positive, statistically significant correlation between the average likes an influencer has on a post and their influence score? Their is a positive influence score bewteen influencers and average likes, the PCC is 0.048.Is there a positive, statistically significant correlation between the total number of likes an influencer has and their influence score? their is a positive colleration bewteen total likes and influencer score, the PCC is %0.234.Is there a positive, statistically significant correlation between the number of posts an influencer has made and their influence score? Their is a positive collarations bewteen total posts and influencer score, PCC is 0.168. Why should you give a crap, you should give a crap because all of these stats make you popular, if you have a negative correlation, your not gonna be an influencer. This means influencers have to work extra hard to put out good content daily and follower experience that keeps the like average from going down, Moral of the story, DONT BE AN INFLUENCEER WHEN YOU GROW UP!</p> 
-
-<img src="followers.png" alt="Followers x Influencer score Graph"width="400" height="400">
-<img src="avg_likes.png" alt="Avg. Likes x Influencer score Graph"width="400" height="400"> 
-<img src="Total_likes.png"alt="Total Likes x Influencer score Graph"width="400" height="400">
-<img src="Posts.png"alt="Posts x Influencer score Graph"width="400" height="400">
+<marquee behavior="alternate"scrollamount="20">
+  <img src="average steam players over year.png"alt="stastics"width="300"height="300">
+  <img src="twitch viewers piechart.png" alt="stastics"width="300" height="300"> 
+</marquee>
+<img1 src="meme.jfif"alt="stastics"width="300"height="300">
 </body>
 </html>
